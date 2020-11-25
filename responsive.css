@@ -1,0 +1,155 @@
+/* large screen desktop --------------------------------------------------------- */
+@media (min-width: 1441px) and (max-width: 2560px) {
+  header {
+    min-height: 60%;
+  }
+
+  #about {
+      min-height: 10%;
+  }
+}
+
+/* small screen desktop --------------------------------------------------------- */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  header {
+    min-height: 110%;
+  }
+
+  #about {
+      min-height: 10%;
+  }
+}
+
+/* large screen tablet --------------------------------------------------------- */
+@media (min-width: 769px) and (max-width: 1024px) {
+  header {
+    min-height: 60%;
+  }
+
+  #about {
+    min-height: 70%;
+
+  }
+
+  #about h1 {
+    font-size: 30px;
+  }
+
+  #about p {
+    font-size: 25px;
+      padding-top: 50px;
+      padding-right: 1px;
+    }
+
+}
+
+/* small screen tablet --------------------------------------------------------- */
+@media only screen and (max-width: 768px) {
+  header {
+    min-height: 60%;
+  }
+
+  #about {
+    min-height: 60%;
+    text-align: left;
+  }
+
+  #about .row {
+    padding-top: 40px;
+  }
+
+  #about h1 {
+    font-size: 25px;
+  }
+
+  #about p {
+    font-size: 20px;
+      padding-top: 50px;
+      padding-right: 1px;
+    }
+
+    #contact h1 {
+    text-align: left;
+    padding-bottom: 50px;
+    font-size: 25px;
+
+}
+  }
+
+
+
+
+/* large screen mobile --------------------------------------------------------- */
+@media only screen and (max-width: 425px) {
+  header {
+    min-height: 40%;
+  }
+
+  .quote {
+    padding: 1px;
+  }
+
+  #about {
+  min-height: 100%
+  }
+
+  #about .title {
+    text-align: center;
+    padding: 1px;
+  }
+
+  #about h1 {
+    font-size: 30px;
+  }
+
+  #about p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #about img {
+    height: 200px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  #contact h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+}
+
+/* small screen mobile --------------------------------------------------------- */
+@media only screen and (max-width: 320px) {
+  header {
+    min-height: 40%;
+  }
+
+  #about {
+    min-height: 100%
+  }
+
+  #about .title {
+    text-align: center;
+    padding: 1px;
+  }
+
+  #about h1 {
+    font-size: 25px;
+  }
+
+  #about p {
+    font-size: 17px;
+    text-align: center;
+      padding-top: 1px;
+      padding-right: 1px;
+
+  }
+
+  #foot p {
+    text-align: center;
+    padding-bottom: 1px;
+    font-size: 17px !important;
+}
+}
