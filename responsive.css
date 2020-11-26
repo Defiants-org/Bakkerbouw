@@ -115,8 +115,15 @@
 }
 
 
+
   header {
     min-height: 70%;
+  }
+
+  #intro .top  {
+
+    margin: 50px 0 10px 0;
+
   }
 
   .intro h4 {
