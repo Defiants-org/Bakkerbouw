@@ -230,11 +230,22 @@ diensten (pag 2)
 }
 
 #diensten p {
-    margin: 60px 30px 0 0;
-    text-align: justify;
+
+    text-align: left;
 }
 
+#diensten .card {
 
+  margin-top: 40px;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #635a52ff !important;
+    border-bottom: 1px solid #635a52ff !important;
+    color: #fff !important;
+}
 /*-------------------- -----------------------------------------------------------------------------------
 contact
 -----------------*/
