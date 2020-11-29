@@ -75,11 +75,13 @@ img {
   border-style: none;
 }
 
+/* text focus */
 .form-control:focus {
   border-color: #635a52ff !important;
   box-shadow: 0 0 5px rgb(99, 90, 83) !important;
 }
 
+/* button */
 .bg-primary, .btn-primary, .btn-white:hover {
     background: #635a52ff !important;
     border-color: #635a52ff !important;
@@ -128,6 +130,35 @@ nav.fill ul li a:hover:after {
   -webkit-animation: fill 1s forwards;
   -moz-animation: fill 1s forwards;
   opacity: 1;
+}
+
+/* scroll to top */
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #867c74ff; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
 }
 
 /*-------------------- -----------------------------------------------------------------------------------
