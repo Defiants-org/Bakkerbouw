@@ -165,7 +165,7 @@ nav.fill ul li a:hover:after {
 header
 -----------------*/
 header {
-  background: url("img/front.png");
+  background: url("img/front.jpg");
   text-align: center;
   padding: 30px;
   /* Set a specific height */
@@ -176,6 +176,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 .logo img {
   text-align: center;
